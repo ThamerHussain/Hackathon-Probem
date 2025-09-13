@@ -1,11 +1,9 @@
-import 'package:hackathon/localization/strings.g.dart';
 import 'package:hackathon/src/core/route.dart';
 import 'package:hackathon/src/core/utils/prevent_double_tab.dart';
 import 'package:hackathon/src/design/theme/app_theme.dart';
 import 'package:hackathon/src/core/provider/theme_provider.dart';
 import 'package:device_preview_plus/device_preview_plus.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 
 class App extends StatelessWidget {
@@ -38,18 +36,11 @@ class App extends StatelessWidget {
           showSemanticsDebugger: false,
           debugShowCheckedModeBanner: false,
 
-          onGenerateTitle: (BuildContext context) => context.t.appTitle,
+          onGenerateTitle: (BuildContext context) => 'HurryApp',
 
           themeMode: themeMode,
           theme: AppTheme.lightTheme(),
           darkTheme: AppTheme.darkTheme(),
-
-          localizationsDelegates: const [
-            GlobalMaterialLocalizations.delegate,
-            GlobalWidgetsLocalizations.delegate,
-            GlobalCupertinoLocalizations.delegate,
-          ],
-          supportedLocales: const [Locale('ar', ''), Locale('en', '')],
         );
       },
     );

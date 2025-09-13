@@ -5,7 +5,6 @@ all:
 
 build:
 	cd app && dart run build_runner build -d
-	cd app && dart run slang
 	cd packages/assets && rm -rf lib/gen && dart run build_runner build -d
 
 build-lang:

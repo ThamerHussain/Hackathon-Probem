@@ -1,5 +1,6 @@
 import 'dart:math' as math;
 import 'package:flutter/material.dart';
+import 'package:auto_route/auto_route.dart';
 import 'package:hackathon/src/design/components/cyberpunk_components.dart';
 import 'package:hackathon/src/design/theme/cyberpunk_palette.dart';
 import 'package:hackathon/src/design/theme/custom_theme.dart';
@@ -587,8 +588,14 @@ class _CyberpunkFingerprintScannerState
                       ? CyberpunkPalette.success
                       : CyberpunkPalette.neonPurple,
                 ),
-                const SizedBox(height: 12),
               ],
+            ),
+            const SizedBox(height: 16),
+            CyberpunkButton(
+              text: 'REGISTER USER',
+              icon: Icons.person_add,
+              onPressed: _navigateToUserRegistration,
+              glowColor: CyberpunkPalette.neonCyan,
             ),
           ],
         ),
@@ -710,9 +717,35 @@ class _CyberpunkFingerprintScannerState
                   : CyberpunkPalette.error,
             ),
           ),
+          if (result.timestamp != null) ...[
+            const SizedBox(height: 16),
+            Text(
+              '⏱️ API Time: ${result.timestamp}ms',
+              style: CyberpunkTextStyles.body.copyWith(
+                color: CyberpunkPalette.neonCyan,
+                fontSize: 14,
+              ),
+            ),
+            const SizedBox(height: 16),
+            if (result.matchId != null)
+              CyberpunkButton(
+                text: 'VIEW USER DETAILS',
+                icon: Icons.person,
+                onPressed: () => _navigateToUserDetails(result.matchId!),
+                glowColor: CyberpunkPalette.neonCyan,
+              ),
+          ],
         ],
       ),
     );
+  }
+
+  void _navigateToUserDetails(String fingerPrintId) {
+    context.router.pushNamed('/user-details/$fingerPrintId');
+  }
+
+  void _navigateToUserRegistration() {
+    context.router.pushNamed('/user-registration');
   }
 
   void _showSettingsDialog() {

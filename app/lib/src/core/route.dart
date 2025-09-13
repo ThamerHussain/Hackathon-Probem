@@ -1,4 +1,7 @@
+import 'package:flutter/cupertino.dart';
 import 'package:hackathon/src/presentation/home/page/home_page.dart';
+import 'package:hackathon/src/presentation/user_details/page/user_details_page.dart';
+import 'package:hackathon/src/presentation/user_registration/page/user_registration_page.dart';
 import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:auto_route/auto_route.dart';
 
@@ -15,6 +18,11 @@ class AppRouter extends RootStackRouter {
   @override
   late final List<AutoRoute> routes = [
     AutoRoute(page: HomePageRoute.page, initial: true, path: '/'),
+    AutoRoute(
+      page: UserDetailsPageRoute.page,
+      path: '/user-details/:fingerPrintId',
+    ),
+    AutoRoute(page: UserRegistrationPageRoute.page, path: '/user-registration'),
   ];
 
   @override

@@ -1,4 +1,3 @@
-import 'package:hackathon/localization/strings.g.dart';
 import 'package:hackathon/src/core/app.dart';
 import 'package:hackathon/src/core/setup/talker.dart';
 import 'package:flutter/material.dart';
@@ -15,11 +14,6 @@ void main() async {
     DeviceOrientation.landscapeLeft,
     DeviceOrientation.landscapeRight,
   ]);
-  LocaleSettings.useDeviceLocale();
 
-  runApp(
-    TranslationProvider(
-      child: ProviderScope(observers: [mainTalker], child: App()),
-    ),
-  );
+  runApp(ProviderScope(observers: [mainTalker], child: App()));
 }
