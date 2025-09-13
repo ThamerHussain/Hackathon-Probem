@@ -1,0 +1,60 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "name": "app test",
+            "request": "launch",
+            "type": "dart",
+            "cwd": "app",
+            "args": [
+                "--dart-define-from-file",
+                "lib/env/.test.env"
+            ],
+        },
+        {
+            "name": "app test release",
+            "request": "launch",
+            "type": "dart",
+            "cwd": "app",
+            "flutterMode": "release",
+            "args": [
+                "--dart-define-from-file",
+                "lib/env/.test.env"
+            ],
+        },
+        {
+            "name": "app staging",
+            "request": "launch",
+            "type": "dart",
+            "cwd": "app",
+            "args": [
+                "--dart-define-from-file",
+                "lib/env/.stg.env"
+            ],
+        },
+        {
+            "name": "app dev",
+            "request": "launch",
+            "type": "dart",
+            "cwd": "app",
+            "args": [
+                "--dart-define-from-file",
+                "lib/env/.dev.env"
+            ],
+        },
+        {
+            "name": "app production",
+            "request": "launch",
+            "type": "dart",
+            "cwd": "app",
+            "args": [
+                "--dart-define-from-file",
+                "lib/env/.prod.env"
+      ],
+    },
+  ],
+}

@@ -1,0 +1,124 @@
+{
+  "buildCommand" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : false,
+    "targets" : null
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98758cc842172da540ffb591e63e38dc1e"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98410c96b4e26fc36411e63b84c3491605"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e989d8b2146a8145768218b852a9444a007"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98312b4bc59bbbe2c06c205bf4da6737f5"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98483832d3c820398e9d40e1a6904b03fe"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98d41ce0bf2141365ff0288286787936d9"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98583f48d08e567205bb589ccf43c23e63"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98bf75f71a2aa7fdc38a7d7d70e6c200c1"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98dd10c852f15a05df8c93ef4a5f27de8e"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98b70a033634f3eb6130de4681c3abbaf4"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9838116aba79bee5cd919637253bcf2ecc"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9805cdb4b44185b96a1156e618ea55541e"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e989a48375628f10c3eb6072660686b6065"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98bd2de74f6113965179b1a4d5afc79158"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e988da1c90394d7bd9314d1b5b85243a8fb"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98a5ae7244e41cc249cf7186dbb9962ecb"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e987b6c2f882d164ef4f3c76673562685a1"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9830037b09fee48cfce1f8562d753688c8"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e987ea64ee8d53085bf9edd1a57aaf8cbb5"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98848ff9cf74c635f5324731538a1c853f"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98de00f90750e7753637464fe34137709d"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9828cab1f188854e0a973e6ff6905c5ffe"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98e0be3b0d5ad56f1985578b1f97431765"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e981304d3d2169071b3ca365b19f5340b7c"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e9883134bb5f399cb37a1eb075d4fea30d8"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98edd77dd2810ee564c4e182f581d855f7"
+    },
+    {
+      "guid" : "bfdfe7dc352907fc980b868725387e98c6206773171bdcb62851940152f25f69"
+    }
+  ],
+  "containerPath" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/Pods/Pods.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "dependencyScope" : "workspace",
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/thamerhussain/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/thamerhussain/Library/Developer/Xcode/DerivedData/Pods-aualomhtwuozdsdqkoonqqcpgmre/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/thamerhussain/Library/Developer/Xcode/DerivedData/Pods-aualomhtwuozdsdqkoonqqcpgmre/Index.noindex/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

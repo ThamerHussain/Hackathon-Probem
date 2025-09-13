@@ -1,0 +1,23 @@
+{
+  "version": 0,
+  "use-external-names": false,
+  "case-sensitive": false,
+  "roots": [{
+    "type": "directory",
+    "name": "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Release/file_picker/file_picker.framework/Modules",
+    "contents": [{
+      "type": "file",
+      "name": "module.modulemap",
+      "external-contents": "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/file_picker.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    "type": "directory",
+    "name": "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Release/file_picker/file_picker.framework/Headers",
+    "contents": [{
+      "type": "file",
+      "name": "file_picker-Swift.h",
+      "external-contents": "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/file_picker.build/unextended-interface-header.h",
+    }]
+  }]
+}

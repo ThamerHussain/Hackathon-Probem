@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/flutter_libserialport.build/Objects-normal/x86_64/flutter_libserialport-master.swiftconstvalues",
+    "dependencies" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/flutter_libserialport.build/Objects-normal/x86_64/flutter_libserialport-master.d",
+    "diagnostics" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/flutter_libserialport.build/Objects-normal/x86_64/flutter_libserialport-master.dia",
+    "emit-module-dependencies" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/flutter_libserialport.build/Objects-normal/x86_64/flutter_libserialport-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/flutter_libserialport.build/Objects-normal/x86_64/flutter_libserialport-master-emit-module.dia",
+    "swift-dependencies" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/flutter_libserialport.build/Objects-normal/x86_64/flutter_libserialport-master.swiftdeps"
+  },
+  "/Users/thamerhussain/.pub-cache/git/flutter_libserialport-e877c2c0f4769e29f8f41f6098f09f80ac79bca1/macos/Classes/FlutterLibserialportPlugin.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/flutter_libserialport.build/Objects-normal/x86_64/FlutterLibserialportPlugin.o",
+    "llvm-bc" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/flutter_libserialport.build/Objects-normal/x86_64/FlutterLibserialportPlugin.bc",
+    "object" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/flutter_libserialport.build/Objects-normal/x86_64/FlutterLibserialportPlugin.o"
+  }
+}

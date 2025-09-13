@@ -1,0 +1,101 @@
+definitions:
+  scripts:
+    get_flutter_packages: &get_flutter_packages
+      name: Get Flutter packages
+      script: flutter pub get
+
+    generate_release_note: &generate_release_note
+      name: Generate release note
+      script: echo "$(git for-each-ref --format='%(subject)%0a%0a%(body)' refs/tags/$(CM_TAG))" > release_notes.txt
+
+    notify_channels: &notify_channels
+      tester_groups:
+        - internal
+      email:
+        recipients:
+          - e_ahmohammed@earthlink.iq
+          - e_aammar@earthlink.iq
+          
+      slack:
+        channel: "almanasa-flutter-poc-builds"
+        notify_on_build_start: true
+        notify:
+          success: true
+          failure: true
+
+  cache: &shared_cache
+    cache_paths:
+      - $HOME/.pub-cache
+      - $HOME/.gradle/caches
+
+workflows:
+  android-test-build:
+    name: Android Test Build
+    max_build_duration: 25
+    working_directory: app
+    instance_type: linux
+
+    triggering:
+      events: [tag]
+      tag_patterns:
+        - { pattern: "*-dev", include: true }
+        - { pattern: "*-test", include: true }
+      cancel_previous_builds: true
+
+    environment:
+      vars:
+        PACKAGE_NAME: "com.example.hackathon"  
+      flutter: stable
+
+    scripts:
+      - *get_flutter_packages
+
+      - name: Build Test APK
+        script: |
+          flutter build apk --dart-define-from-file lib/env/.test.env
+          mv build/app/outputs/flutter-apk/app-release.apk build/app/outputs/flutter-apk/hackathon-test.apk
+
+      - *generate_release_note
+
+    artifacts:
+      - build/**/outputs/**/hackathon-test.apk
+      - flutter_drive.log
+
+    publishing: *notify_channels
+
+    cache: *shared_cache
+
+  android-production-build:
+    name: Android Production Build
+    max_build_duration: 25
+    working_directory: app
+    instance_type: linux
+
+    triggering:
+      events: [tag]
+      tag_patterns:
+        - { pattern: "*-prod", include: true }
+      cancel_previous_builds: true
+
+    environment:
+      vars:
+        PACKAGE_NAME: "com.example.hackathon"  
+      flutter: stable
+
+    scripts:
+      - *get_flutter_packages
+
+      - name: Build Production APK
+        script: |
+          flutter build apk --dart-define-from-file lib/env/.prod.env
+          mv build/app/outputs/flutter-apk/app-release.apk build/app/outputs/flutter-apk/hackathon-prod.apk
+
+      - *generate_release_note
+
+    artifacts:
+      - build/**/outputs/**/hackathon-prod.apk
+      - flutter_drive.log
+
+    publishing: *notify_channels
+
+    cache: *shared_cache

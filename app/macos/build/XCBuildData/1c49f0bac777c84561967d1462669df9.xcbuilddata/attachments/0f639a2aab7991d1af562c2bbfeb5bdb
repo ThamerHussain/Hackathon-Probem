@@ -1,0 +1,5 @@
+ extern const unsigned char libserialportVersionString[];
+ extern const double libserialportVersionNumber;
+
+ const unsigned char libserialportVersionString[] __attribute__ ((used)) = "@(#)PROGRAM:libserialport  PROJECT:Pods-1" "\n";
+ const double libserialportVersionNumber __attribute__ ((used)) = (double)1.;

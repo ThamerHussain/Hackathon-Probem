@@ -1,0 +1,4 @@
+
+module flutter_libserialport.__Swift {
+  exclude header "flutter_libserialport-Swift.h"
+}

@@ -1,0 +1,30 @@
+{
+  "" : {
+    "const-values" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/device_info_plus-master.swiftconstvalues",
+    "dependencies" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/device_info_plus-master.d",
+    "diagnostics" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/device_info_plus-master.dia",
+    "emit-module-dependencies" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/device_info_plus-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/device_info_plus-master-emit-module.dia",
+    "swift-dependencies" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/device_info_plus-master.swiftdeps"
+  },
+  "/Users/thamerhussain/.pub-cache/hosted/pub.dev/device_info_plus-11.5.0/macos/device_info_plus/Sources/device_info_plus/CwlSysctl.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/CwlSysctl.o",
+    "llvm-bc" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/CwlSysctl.bc",
+    "object" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/CwlSysctl.o"
+  },
+  "/Users/thamerhussain/.pub-cache/hosted/pub.dev/device_info_plus-11.5.0/macos/device_info_plus/Sources/device_info_plus/DeviceIdentifiers.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/DeviceIdentifiers.o",
+    "llvm-bc" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/DeviceIdentifiers.bc",
+    "object" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/DeviceIdentifiers.o"
+  },
+  "/Users/thamerhussain/.pub-cache/hosted/pub.dev/device_info_plus-11.5.0/macos/device_info_plus/Sources/device_info_plus/DeviceInfoPlusMacosPlugin.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/DeviceInfoPlusMacosPlugin.o",
+    "llvm-bc" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/DeviceInfoPlusMacosPlugin.bc",
+    "object" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/DeviceInfoPlusMacosPlugin.o"
+  },
+  "/Users/thamerhussain/.pub-cache/hosted/pub.dev/device_info_plus-11.5.0/macos/device_info_plus/Sources/device_info_plus/SystemUUID.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/SystemUUID.o",
+    "llvm-bc" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/SystemUUID.bc",
+    "object" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/device_info_plus.build/Objects-normal/x86_64/SystemUUID.o"
+  }
+}

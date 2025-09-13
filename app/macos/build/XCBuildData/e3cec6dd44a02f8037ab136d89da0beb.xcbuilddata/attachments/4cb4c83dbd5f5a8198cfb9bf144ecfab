@@ -1,0 +1,15 @@
+{
+  "" : {
+    "const-values" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/share_plus.build/Objects-normal/arm64/share_plus-master.swiftconstvalues",
+    "dependencies" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/share_plus.build/Objects-normal/arm64/share_plus-master.d",
+    "diagnostics" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/share_plus.build/Objects-normal/arm64/share_plus-master.dia",
+    "emit-module-dependencies" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/share_plus.build/Objects-normal/arm64/share_plus-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/share_plus.build/Objects-normal/arm64/share_plus-master-emit-module.dia",
+    "swift-dependencies" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/share_plus.build/Objects-normal/arm64/share_plus-master.swiftdeps"
+  },
+  "/Users/thamerhussain/.pub-cache/hosted/pub.dev/share_plus-11.1.0/macos/share_plus/Sources/share_plus/SharePlusMacosPlugin.swift" : {
+    "index-unit-output-path" : "/Pods.build/Release/share_plus.build/Objects-normal/arm64/SharePlusMacosPlugin.o",
+    "llvm-bc" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/share_plus.build/Objects-normal/arm64/SharePlusMacosPlugin.bc",
+    "object" : "/Users/thamerhussain/StudioProjects/HurryApp-Hackathon/app/macos/build/Pods.build/Release/share_plus.build/Objects-normal/arm64/SharePlusMacosPlugin.o"
+  }
+}

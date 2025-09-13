@@ -1,0 +1,67 @@
+Target dependency graph (27 targets)
+Target 'Pods-RunnerTests' in project 'Pods'
+➜ Explicit dependency on target 'Pods-Runner' in project 'Pods'
+Target 'Pods-Runner' in project 'Pods'
+➜ Explicit dependency on target 'AppAuth' in project 'Pods'
+➜ Explicit dependency on target 'FlutterMacOS' in project 'Pods'
+➜ Explicit dependency on target 'device_info_plus' in project 'Pods'
+➜ Explicit dependency on target 'file_picker' in project 'Pods'
+➜ Explicit dependency on target 'flutter_appauth' in project 'Pods'
+➜ Explicit dependency on target 'flutter_libserialport' in project 'Pods'
+➜ Explicit dependency on target 'flutter_secure_storage_macos' in project 'Pods'
+➜ Explicit dependency on target 'libserialport' in project 'Pods'
+➜ Explicit dependency on target 'package_info_plus' in project 'Pods'
+➜ Explicit dependency on target 'path_provider_foundation' in project 'Pods'
+➜ Explicit dependency on target 'share_plus' in project 'Pods'
+➜ Explicit dependency on target 'shared_preferences_foundation' in project 'Pods'
+➜ Explicit dependency on target 'sqflite_darwin' in project 'Pods'
+➜ Explicit dependency on target 'url_launcher_macos' in project 'Pods'
+Target 'url_launcher_macos' in project 'Pods'
+➜ Explicit dependency on target 'FlutterMacOS' in project 'Pods'
+➜ Explicit dependency on target 'url_launcher_macos-url_launcher_macos_privacy' in project 'Pods'
+Target 'url_launcher_macos-url_launcher_macos_privacy' in project 'Pods' (no dependencies)
+Target 'sqflite_darwin' in project 'Pods'
+➜ Explicit dependency on target 'FlutterMacOS' in project 'Pods'
+➜ Explicit dependency on target 'sqflite_darwin-sqflite_darwin_privacy' in project 'Pods'
+Target 'sqflite_darwin-sqflite_darwin_privacy' in project 'Pods' (no dependencies)
+Target 'shared_preferences_foundation' in project 'Pods'
+➜ Explicit dependency on target 'FlutterMacOS' in project 'Pods'
+➜ Explicit dependency on target 'shared_preferences_foundation-shared_preferences_foundation_privacy' in project 'Pods'
+Target 'shared_preferences_foundation-shared_preferences_foundation_privacy' in project 'Pods' (no dependencies)
+Target 'share_plus' in project 'Pods'
+➜ Explicit dependency on target 'FlutterMacOS' in project 'Pods'
+➜ Explicit dependency on target 'share_plus-share_plus_privacy' in project 'Pods'
+Target 'share_plus-share_plus_privacy' in project 'Pods' (no dependencies)
+Target 'path_provider_foundation' in project 'Pods'
+➜ Explicit dependency on target 'FlutterMacOS' in project 'Pods'
+➜ Explicit dependency on target 'path_provider_foundation-path_provider_foundation_privacy' in project 'Pods'
+Target 'path_provider_foundation-path_provider_foundation_privacy' in project 'Pods' (no dependencies)
+Target 'package_info_plus' in project 'Pods'
+➜ Explicit dependency on target 'FlutterMacOS' in project 'Pods'
+➜ Explicit dependency on target 'package_info_plus-package_info_plus_privacy' in project 'Pods'
+Target 'package_info_plus-package_info_plus_privacy' in project 'Pods' (no dependencies)
+Target 'flutter_secure_storage_macos' in project 'Pods'
+➜ Explicit dependency on target 'FlutterMacOS' in project 'Pods'
+➜ Explicit dependency on target 'flutter_secure_storage_macos-flutter_secure_storage_macos' in project 'Pods'
+Target 'flutter_secure_storage_macos-flutter_secure_storage_macos' in project 'Pods' (no dependencies)
+Target 'flutter_libserialport' in project 'Pods'
+➜ Explicit dependency on target 'FlutterMacOS' in project 'Pods'
+➜ Explicit dependency on target 'libserialport' in project 'Pods'
+Target 'libserialport' in project 'Pods' (no dependencies)
+Target 'flutter_appauth' in project 'Pods'
+➜ Explicit dependency on target 'AppAuth' in project 'Pods'
+➜ Explicit dependency on target 'FlutterMacOS' in project 'Pods'
+➜ Explicit dependency on target 'flutter_appauth-flutter_appauth_privacy' in project 'Pods'
+Target 'flutter_appauth-flutter_appauth_privacy' in project 'Pods' (no dependencies)
+Target 'file_picker' in project 'Pods'
+➜ Explicit dependency on target 'FlutterMacOS' in project 'Pods'
+➜ Explicit dependency on target 'file_picker-file_picker_privacy' in project 'Pods'
+Target 'file_picker-file_picker_privacy' in project 'Pods' (no dependencies)
+Target 'device_info_plus' in project 'Pods'
+➜ Explicit dependency on target 'FlutterMacOS' in project 'Pods'
+➜ Explicit dependency on target 'device_info_plus-device_info_plus_privacy' in project 'Pods'
+Target 'device_info_plus-device_info_plus_privacy' in project 'Pods' (no dependencies)
+Target 'FlutterMacOS' in project 'Pods' (no dependencies)
+Target 'AppAuth' in project 'Pods'
+➜ Explicit dependency on target 'AppAuth-AppAuthCore_Privacy' in project 'Pods'
+Target 'AppAuth-AppAuthCore_Privacy' in project 'Pods' (no dependencies)

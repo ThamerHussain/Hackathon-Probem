@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
+    <option name="additionalArgs" value="&quot;--dart-define-from-file=lib/env/.test.env&quot;" />
+    <option name="filePath" value="$PROJECT_DIR$/app/lib/main.dart" />
+    <method v="2" />
+  </configuration>
+</component>

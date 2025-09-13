@@ -1,0 +1,5 @@
+
+module flutter_libserialport.Swift {
+  header "flutter_libserialport-Swift.h"
+  requires objc
+}
