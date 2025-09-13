@@ -383,13 +383,19 @@ class FingerprintScannerController extends ChangeNotifier {
       _lastMatchResult = result;
 
       if (result.isMatch) {
+        final timeText = result.time != null
+            ? '\n⏱️ API Time: ${result.time}ms'
+            : '';
         _setStatus(
-          '✅ MATCH FOUND! Confidence: ${(result.confidence * 100).toStringAsFixed(1)}%',
+          '✅ MATCH FOUND! Confidence: ${(result.confidence * 100).toStringAsFixed(1)}%$timeText',
           immediate: true,
         );
       } else {
+        final timeText = result.time != null
+            ? '\n⏱️ API Time: ${result.time}ms'
+            : '';
         _setStatus(
-          '❌ No match found. Confidence: ${(result.confidence * 100).toStringAsFixed(1)}%',
+          '❌ No match found. Confidence: ${(result.confidence * 100).toStringAsFixed(1)}%$timeText',
           immediate: true,
         );
       }

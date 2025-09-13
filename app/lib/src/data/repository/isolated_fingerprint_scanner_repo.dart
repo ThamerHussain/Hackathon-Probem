@@ -183,6 +183,7 @@ class IsolatedFingerprintScannerRepo implements FingerprintScannerRepo {
         matchId: apiResult.matchId,
         message: apiResult.message,
         timestamp: apiResult.timestamp,
+        time: apiResult.time,
       );
 
       // Log the match result

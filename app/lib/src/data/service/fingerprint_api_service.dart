@@ -86,6 +86,7 @@ class FingerprintMatchResult {
   final String? matchId;
   final String? message;
   final DateTime timestamp;
+  final int? time; // API elapsed time in milliseconds
 
   const FingerprintMatchResult({
     required this.isMatch,
@@ -93,16 +94,19 @@ class FingerprintMatchResult {
     this.matchId,
     this.message,
     required this.timestamp,
+    this.time,
   });
 
   factory FingerprintMatchResult.fromJson(Map<String, dynamic> json) {
     final confidence = (json['matching'] as num?)?.toDouble() ?? 0.0;
+    final time = json['time'] as int?;
     return FingerprintMatchResult(
       isMatch: confidence > 0.5,
       confidence: confidence,
-      matchId: null,
+      matchId: json['fingerprintId'] as String?,
       message: null,
       timestamp: DateTime.now(),
+      time: time,
     );
   }
 
@@ -119,6 +123,7 @@ class FingerprintMatchResult {
           matchId: null,
           message: response,
           timestamp: DateTime.now(),
+          time: null,
         );
       }
     } else if (response is Map<String, dynamic>) {
@@ -131,6 +136,7 @@ class FingerprintMatchResult {
         matchId: null,
         message: null,
         timestamp: DateTime.now(),
+        time: null,
       );
     } else {
       logger.log('Unexpected response type: ${response.runtimeType}');
@@ -140,6 +146,7 @@ class FingerprintMatchResult {
         matchId: null,
         message: 'Unexpected response format',
         timestamp: DateTime.now(),
+        time: null,
       );
     }
   }
@@ -150,7 +157,7 @@ class FingerprintMatchResult {
 
   @override
   String toString() {
-    return 'FingerprintMatchResult(isMatch: $isMatch, confidence: $confidence, matchId: $matchId)';
+    return 'FingerprintMatchResult(isMatch: $isMatch, confidence: $confidence, matchId: $matchId, time: $time)';
   }
 }
 

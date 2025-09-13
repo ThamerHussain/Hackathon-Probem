@@ -539,7 +539,7 @@ class _CyberpunkFingerprintScannerState
       width: double.infinity,
       glowColor: CyberpunkPalette.neonPurple,
       child: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 11),
+        padding: const EdgeInsets.symmetric(vertical: 22.3),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [

@@ -81,6 +81,7 @@ class FingerprintMatchResult {
   final String? matchId;
   final String? message;
   final DateTime timestamp;
+  final int? time; // API elapsed time in milliseconds
 
   const FingerprintMatchResult({
     required this.isMatch,
@@ -88,10 +89,11 @@ class FingerprintMatchResult {
     this.matchId,
     this.message,
     required this.timestamp,
+    this.time,
   });
 
   @override
   String toString() {
-    return 'FingerprintMatchResult(isMatch: $isMatch, confidence: $confidence, matchId: $matchId)';
+    return 'FingerprintMatchResult(isMatch: $isMatch, confidence: $confidence, matchId: $matchId, time: $time)';
   }
 }
